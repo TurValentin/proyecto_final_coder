@@ -295,10 +295,25 @@ h2 .restorando{
 
 }
 
-.caja{
+
+
+
+.parrafo .container{
+    max-width: 750px;
+}
+
+.somos__button{
+    display: flex;
+    margin: 25px;
+    padding: 15px;
+}
+    
+
+
+ .caja{
     width: 1000px;
     height: 600px;
-    background: rgb(215, 215, 215);;
+    background: rgb(211, 211, 211);
     position: relative;
     margin: 20px auto;
     
@@ -308,11 +323,11 @@ h2 .restorando{
     background-image: url(../img/ñoquis.jpg);
     background-size: cover;
     background-position: center center;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 275px;
     position: absolute;
     top: 150px;
-    left: 325px;
+    left: 350px;
     border-radius: 5px;
     
     
@@ -338,24 +353,57 @@ h2 .restorando{
     height: 300px;
     position: absolute;
     border-radius: 5px;    
-} 
-
-
-.parrafo .container{
-    max-width: 750px;
 }
 
-.somos__button{
-    display: flex;
-    margin: 25px;
-    padding: 15px;
+.imagen7{
+    background-image: url(../img/burrata.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 300px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 5px;    
 }
-    
 
 
 
- 
+.imagen8{
+    background-image: url(../img/ensalada.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 350px;
+    height: 300px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 5px;  
+}
 
+.imagen9{
+    background-image: url(../img/ravioles.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    height: 200px;
+    left: 350px;
+    top: 0;
+    position: absolute;
+    border-radius: 5px;  
+}
+
+
+.imagen10{
+    background-image: url(../img/rissoto.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    height: 175px;
+    left: 350px;
+    bottom: 0;
+    position: absolute;
+    border-radius: 5px;  
+}
 
 
 
@@ -1077,15 +1125,16 @@ h2 .restorando{
 
 
 
-
-
-
-
-
-
-
 /* 
+
 git remote add origin https://github.com/TurValentin/proyecto_final_coder.git
 git branch -M master
 git push -u origin master
- */
+
+
+
+*/
+
+
+
+
