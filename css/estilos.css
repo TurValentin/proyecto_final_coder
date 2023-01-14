@@ -51,9 +51,9 @@ p{
     letter-spacing: 1.5px; 
 }
 
-.anchor:hover{
+.nav__anchor:hover{
     color:rgb(215, 215, 215);
-
+    text-decoration: underline;
 }
 
 
@@ -232,6 +232,7 @@ h2 .restorando{
 
 
 
+
 /* QUIENES-SOMOS.HTML */
 
 
@@ -336,60 +337,6 @@ h2 .restorando{
     padding: 15px;
 }
     
-
-
-
-/* .caja{
-    width: 1000px;
-    height: 600px;
-    background: rgb(215, 215, 215);;
-    position: relative;
-    margin: 20px auto;
-    
-}
-
-.imagen4{
-    background-image: url(../img/ñoquis.jpg);
-    background-size: cover;
-    background-position: center center;
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    top: 150px;
-    left: 325px;
-    border-radius: 5px;
-    
-    
-}
-
-.imagen5{
-    background-image: url(../img/carne.jpg);
-    background-size: cover;
-    background-position: center center;
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    border-radius: 5px;
-}
-
-.imagen6{
-    background-image: url(../img/brownie.jpg);
-    background-size: cover;
-    background-position: center center;
-    width: 350px;
-    height: 300px;
-    position: absolute;
-    border-radius: 5px;    
-} */
-
-
-
-
-
-
-
 
 
 

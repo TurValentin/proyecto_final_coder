@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restorando</title>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Inter:wght@300&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -44,7 +48,9 @@
       </section>
         
 
-      <section class="bienvenidos">
+      <section class="bienvenidos" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
         <div class="container">
           
             <div class="bienvenidos__texto">
@@ -57,13 +63,15 @@
             </div>
 
 
-            <div class="bienvenidos__img"></div>
+            <div class="bienvenidos__img" data-aos="flip-right"></div>
 
         </div>
       </section>
 
 
-     <section class="año">
+     <section class="año" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
 
       <div class="container">
 
@@ -80,7 +88,7 @@
           <p>Reprehenderit minima reiciendis distinctio doloremque beatae dolore dignissimos, unde temporibus ut laudantium perspiciatis facilis? Perferendis consequatur corrupti fugiat maiores ratione eos dolor expedita, a quibusdam. Nemo dolorum est fugit rem.</p>
         </div>
 
-       <div class="año__img"></div>
+       <div class="año__img" data-aos="flip-right"></div>
         
 
       </div>
@@ -115,26 +123,9 @@
   
     
 
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
