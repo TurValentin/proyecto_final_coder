@@ -677,6 +677,16 @@ h2 .restorando{
 
 
 
+/* ANIMACIONES */
+
+ 
+
+
+
+
+
+
+
 
 /* MEDIA QUERIES */
 
@@ -809,7 +819,7 @@ h2 .restorando{
     
 
     .bienvenidos{
-        height: 80vh;
+        height: 90vh;
     }
 
     .bienvenidos .container{
@@ -835,7 +845,7 @@ h2 .restorando{
     }
     
     .año{
-        height: 75vh;
+        height: 90vh;
     }
     
     .año .container{
@@ -865,6 +875,39 @@ h2 .restorando{
         margin-top: 195px;
     }
 
+
+    .imagenes .container{
+        flex-direction: column;
+    }
+
+    .somos__texto h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .imagen1{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .imagen2{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .imagen3{
+        width: 250px;
+        height: 250px;
+    }
+    
+    
+    .parrafo p{
+        padding: 15px;
+        margin: 15px;
+    }
+    
 
 
     .footer__container{
@@ -919,7 +962,12 @@ h2 .restorando{
         font-size: 15px;   
     }
     
-    
+
+    .horarios_contacto{
+        height: 100vh;
+    }
+
+
     .horarios_contacto h3{
         font-size: 25px;
         margin-bottom: 10px;
@@ -937,8 +985,8 @@ h2 .restorando{
     }
 
     .container_contacto{
-        margin-top: 75px;
-        height: 65vh;
+        margin-top: 55px;
+        height: 90vh;
      }
      
      
@@ -995,7 +1043,7 @@ h2 .restorando{
           padding: 20px;
           width: 350px;
           margin: 35px auto;
-          height: 65vh;  
+          height: 80vh;  
       }
       
       .form h3{
@@ -1026,6 +1074,8 @@ h2 .restorando{
       .horarios{
           margin: auto;
           padding-top: 0px;
+          margin-top: 25px;
+          height: 75vh;
       }
       
       .horarios h2{
