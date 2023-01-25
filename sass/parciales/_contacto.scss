@@ -1,0 +1,183 @@
+// CONTACTO.HTML
+
+.hero_contacto{
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    text-align:center; 
+    flex-direction: column;
+    height: 35vh; 
+    background-image: $linear-gradient ,url(../img/hero-contacto.jpg) ;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+
+
+
+    & h1{
+        font-size: 35px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+}
+
+.info_contacto .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 45vh;
+    padding: 20px 15px;
+    gap: 20px;
+}
+
+.contacto{
+
+    & h3{
+        font-size: 30px;
+        color: black;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        text-align: center; 
+    }
+
+
+    & ul li{
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 3.5px;
+        list-style: none;
+        padding: 10px;
+    }
+}
+
+.contacto__link{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+
+
+    & a{
+        text-decoration: none;
+        color: black;  
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 1.5px;
+        padding: 15px; 
+
+        &:hover{
+            color:white;
+        }  
+    }
+    
+}
+
+.direccion_contacto{
+
+    & h3{
+        font-size: 30px;
+        color: black;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    & p{
+        font-size: 17px;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        padding: 32px;
+    }
+    
+}
+
+.button_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.horarios_contacto{
+
+    & h3{
+        font-size: 30px;
+        color: black;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    & p{
+        font-size: 17px;
+        text-transform: inherit;
+        margin-bottom: 5px;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    & ul li{
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 3.5px;
+        list-style: none;
+       
+    }   
+}
+
+.container_contacto{
+    display: grid;
+    place-items: center;
+ }
+
+ .form_contacto{
+    background: $color-secundario;
+    padding: 30px;
+    width: 500px;
+    margin: 75px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 7px 13px 17px #000;
+    height: 500px;
+
+    & h3{
+        font-size: 22px;
+        margin-bottom: 20px;
+        
+    }
+
+    & .form_input{
+        width: 100%;
+        background: $color-principal;
+        padding: 20px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border: 1.5px solid black;
+        font-size: 12px;  
+    }
+
+    & .form_button{
+        width: 45%;
+        background: $color-principal;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1.5px solid $color-principal;
+        box-shadow: 1px 1px 3px $color-principal;  
+    }
+
+    & .form_button:hover{
+        border: 1.5px solid $color-secundario;
+        box-shadow: 1px 1px 3px $color-secundario; 
+    }
+    
+    
+    
+    
+}
+ 
+

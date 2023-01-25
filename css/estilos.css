@@ -1,11 +1,9 @@
-/* INDEX.HTML */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;   
-
 }
 
 body{
@@ -15,13 +13,7 @@ p{
     font-size: 16px;  
 }
 
-.logo img{
-    width: 250px;
-    height: 100px;
-    padding: 15px;
-    margin: 10px;
-    
-}
+/* INDEX.HTML */
 
 .header{
     display: flex;
@@ -33,11 +25,22 @@ p{
     
 }
 
-.nav{
+
+
+.header__logo img{
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+
+.header__nav{
     padding-right: 20px;
 }
 
-.nav ul li{
+.header__nav ul li{
     display: inline-block; 
 }
 
@@ -677,7 +680,7 @@ h2 .restorando{
 
 
 
-/* ANIMACIONES */
+
 
  
 
@@ -727,7 +730,7 @@ h2 .restorando{
         padding: 20px;   
     }
 
-    .nav{
+    .header__nav{
         padding-right: 0px;
     }
 
@@ -785,16 +788,16 @@ h2 .restorando{
         padding: 20px;   
     }
 
-    .nav{
+    .header__nav{
         padding-right: 0px;
     }
 
-    .nav ul{
+    .header__nav ul{
         display: flex;
         flex-direction: column;
     }
 
-    .nav ul li{
+    .header__nav ul li{
         margin-bottom: 7px;
     }
 
@@ -1096,7 +1099,7 @@ h2 .restorando{
       }
       
       
-      
+       
 
 }
 

@@ -1,0 +1,420 @@
+// MEDIA-QUERIES
+
+@media screen and (max-width: 1024px) {
+    
+    .año{
+        height: 65vh;
+    }
+    
+   
+    .año__img{
+       margin-top: 65px;
+       padding: 10px;
+       
+    }
+    
+    
+    .año__texto{
+       padding: 35px; 
+    }
+    
+    .año__texto h2{
+        margin-bottom: 25px;
+    }
+
+    .año__texto p{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+    .header{
+        flex-direction: column;
+        padding: 20px;   
+    }
+
+    .header__nav{
+        padding-right: 0px;
+    }
+
+    .hero__index{
+        height: 85vh; 
+    }
+
+    .bienvenidos{
+        height: 60vh;
+    }
+
+    .bienvenidos__img{
+        margin: auto;
+        margin-top: 30px;
+        padding: 10px; 
+        width: 350px;
+        height: 500px;
+    }
+
+    .año{
+        height: 65vh;
+    }
+    
+   
+    .año__img{
+       margin: auto;
+       padding: 10px;
+       width: 350px;
+       height: 500px;
+    }
+    
+    
+    .año__texto{
+       padding: 35px; 
+    }
+    
+    .año__texto h2{
+        margin-bottom: 25px;
+    }
+
+    .año__texto p{
+        margin-bottom: 10px;
+    }
+
+    .horarios{
+        padding-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    .header{
+        flex-direction: column;
+        padding: 20px;   
+    }
+
+    .header__nav{
+        padding-right: 0px;
+    }
+
+    .header__nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__nav ul li{
+        margin-bottom: 7px;
+    }
+
+    .nav__anchor{
+        padding-right: 0px;
+    }
+
+
+    .hero__index{
+        height: 55vh; 
+    }
+
+    .hero__index h1{
+        font-size: 40px;
+        margin-bottom: 25px;
+     }
+
+    .hero__index h4{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+
+    .bienvenidos{
+        height: 100vh;
+    }
+
+    .bienvenidos .container{
+        flex-direction: column;
+    }
+    
+    .bienvenidos__img{
+        margin: auto;
+        padding: 10px;
+        width: 300px; 
+        height: 350px;
+        margin-top: 15px;
+        
+        
+    }
+
+    .bienvenidos__texto{
+        width: 100%;
+        padding: 10px;
+    }
+    
+    h2 .restorando{
+        font-size: 35px;
+    }
+    
+    .año{
+        height: 100vh;
+        margin-top: 25px;
+    }
+    
+    .año .container{
+        flex-direction: column;   
+    }
+    
+    .año__img{
+        margin: auto;
+        padding: 10px;
+        width: 300px; 
+        height: 350px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    .año__texto{
+        width: 100%;   
+        padding: 10px;     
+    }
+    
+    .año__texto h2{
+        margin-bottom: 5px;
+    }
+    
+
+    .button__index button{
+        margin: 155px auto;
+    }
+
+
+    .imagenes .container{
+        flex-direction: column;
+    }
+
+    .somos__texto h2{
+        font-size: 25px;
+        text-transform: uppercase;
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .imagen1{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .imagen2{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .imagen3{
+        width: 250px;
+        height: 250px;
+    }
+    
+    
+    .parrafo p{
+        padding: 15px;
+        margin: 15px;
+    }
+    
+
+
+    .footer__container{
+        height: 195px;
+    }
+
+    .hero_contacto{
+        height: 40vh; 
+    }
+
+    .hero__contacto h1{
+        font-size: 25px;
+        margin-bottom: 25px;
+        
+     }
+
+
+    .info_contacto .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        height: 100vh;
+        padding: 18px;
+        gap: 50px;
+    }
+
+
+    .contacto h3{
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    
+    .contacto ul li{
+        margin: 15px;
+        padding: 17px;
+        font-size: 17px;
+    }
+ 
+    
+    .direccion_contacto h3{
+        font-size: 25px;
+        margin-bottom: 7px;       
+    }
+    
+    .direccion_contacto p{
+        font-size: 17px;
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    
+    .button_contacto{
+        font-size: 15px;   
+    }
+    
+
+
+
+
+    .horarios_contacto h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .horarios_contacto p{
+        font-size: 17px;
+        margin: 10px;
+    }
+    
+    .horarios_contacto ul li{
+        margin: 10px;
+        list-style: none;  
+    }
+
+    .container_contacto{
+        margin: 50px auto;
+        height: 100vh;
+          
+     }
+     
+     
+     .form_contacto{
+         padding: 30px;
+         width: 300px;
+         margin: auto;
+         height: 480px;
+         margin-top: 350px;
+         
+         
+     }
+     
+     
+     .form_contacto h3{
+         font-size: 22px;
+         margin-bottom: 20px;
+         
+     }
+     
+     .form_contacto .form_input{
+         width: 100%;
+         background: rgb(215, 215, 215);
+         padding: 20px;
+         border-radius: 4px;
+         margin-bottom: 20px;
+         border: 1.5px solid black;
+         font-size: 12px;  
+     }
+     
+     
+     .form_contacto .form_button{
+         width: 45%;
+         background: rgb(215, 215, 215);
+         padding: 10px;
+         border-radius: 4px;
+         margin-bottom: 16px;
+         border: 1.5px solid rgb(215, 215, 215);
+         box-shadow: 1px 1px 3px rgb(215, 215, 215);  
+     }
+     
+     .form_contacto .form_button:hover{
+         border: 1.5px solid #24303c;
+         box-shadow: 1px 1px 3px #24303c; 
+     }
+
+
+
+     .display__form-horarios{
+        flex-direction: column;
+      }
+      
+      
+      .form{
+          padding: 20px;
+          width: 325px;
+          margin: 35px auto;
+          height: 80vh;  
+      }
+      
+      .form h3{
+          font-size: 21px;
+          margin-bottom: 18px;  
+      }
+      
+      .form .form_input{
+          padding: 7px;
+          margin-bottom: 10px;
+          font-size: 12px;  
+      }
+      
+      
+      .form .form_button{
+          padding: 7px;
+          margin-bottom: 14px;  
+      }
+      
+      
+      .form .area p{
+          height: 17px;
+          font-size: 12px;
+          line-height: 15px;
+      }
+ 
+      
+      .horarios{
+          margin: auto;
+          padding-top: 0px;
+          margin-top: 25px;
+          height: 75vh;
+      }
+      
+      .horarios h2{
+          font-size: 28px;
+          margin-bottom: 15px;  
+      }
+      
+      .horarios p{
+          font-size: 18px;
+          margin-bottom: 5px;
+      }
+      
+      .horarios ul li{
+          margin-bottom: 2px;
+          padding: 7px;
+      }
+      
+      
+       
+
+}
+
+
+
+
+
+
+
+
+
+
