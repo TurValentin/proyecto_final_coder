@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva, Restorando</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Inter:wght@300&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/compilado.css">
+    
+</head>
+<body>
+    <header class="header">
+            <div>                
+                <label for="" class="header__logo">
+                    <a href="../index.html"><img src="../img/restorando.jpg" alt="Logo"></a>
+                </label>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                  <li><a href="../index.html" class="nav__anchor">Inicio</a></li>
+                  <li><a href="quienes-somos.html" class="nav__anchor">Quienes Somos</a></li>
+                  <li><a href="contacto.html" class="nav__anchor">Contacto</a></li>
+                  <li><a href="" class="nav__anchor">Reservá</a></li>
+                  <li><a href="menu.html" class="nav__anchor">Menú</a></li>
+                </ul>   
+            </nav>     
+       
+    </header>
+
+
+<div class="display__form-horarios">
+
+<section class="form">
+    
+    <form action="#" method="get" enctype="multipart/form-data">
+        
+            <h3>¡Reserve su mesa!</h3>
+            
+            <div>
+                <label for="name"></label>
+                
+                <input type="text" name="name" id="name" placeholder="Ingrese su Nombre" required  class="form_input">
+            </div>
+           
+            <div>
+                <label for="apellido"></label>
+                
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required class="form_input">
+            </div>
+ 
+            <div>
+                <label for="mail"></label>
+                
+                <input type="email" name="mail" id="mail" placeholder="Ingrese su E-mail" required class="form_input">
+            </div>
+           
+            <div>
+                <label for="number"></label>
+                
+                <input type="number" name="number" id="number" placeholder="Ingrese su Numero" class="form_input">
+            </div>
+
+            <div>
+                <label for="personas">¿Cuántas personas?</label>
+                
+                <select name="personas" id="personas" class="form_input">
+                    <option value="uno">1</option>
+                    <option value="dos">2</option>
+                    <option value="tres">3</option>
+                    <option value="cuatro">4</option>
+                    <option value="cinco">5</option>
+                    <option value="seis">6</option>
+                    <option value="siete">7</option>
+                    <option value="ocho">8</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="date">Fecha de su reserva:</label>
+                
+                <input type="date" name="date" id="date" min="2022-12-01" class="form_input">
+            </div>
+            
+
+            <strong><span class="area"><p>Áreas de interés para recibir información via e-mail</p> </span></strong>
+            
+            <input type="checkbox" name="promos" id="promos" class="check">
+                <label for="promos">Promociones</label>
+            <br>
+                <input type="checkbox" name="nov" id="nov" class="check">
+                <label for="nov">Novedades</label>
+            <br>
+                <input type="checkbox" name="cursos" id="cursos" class="check">
+                <label for="cursos">Cursos/Recetas</label>
+
+
+            <div>
+                <input type="reset" value="Reiniciar Petición" class="form_button">
+                <input type="submit" value="Enviar Petición" class="form_button">
+            </div>
+            
+            <textarea name="message" id="" cols="30" rows="3" readonly class="form_input" placeholder="Luego de enviar su petición aguarde que lo contactemos. Gracias y saludos!"></textarea>
+   
+    </form>
+
+</section>
+
+
+
+<section class="horarios">
+
+
+        <div>
+
+            <h2>Horarios</h2>
+
+             <div>
+                <p>Domingo</p>
+                <ul>
+                    <li>12:00 – 15:30</li>
+                </ul>
+             </div> 
+             <div>
+                <p>Lunes</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Martes</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Miercoles</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Jueves</p>
+                <ul>
+                    <li>12:00 – 15:30</li> 
+                </ul>
+             </div>
+             <div>
+                <p>Viernes</p>
+                <ul>
+                    <li>10:00 – 15:30</li>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Sabado </p>
+                <ul>
+                    <li>10:00 – 15:30</li>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>                               
+        </div>
+
+    </section>
+
+</div>
+   
+
+
+
+<footer class="footer">
+    <div class="footer__container">
+      <strong>
+        <p>Copyright © 2022, Restorando. Todos los derechos reservados.  Designed by ValenTur. </p>
+        
+        <p>Dirección: Av. Alicia Moreau de Justo 230 | Puerto Madero</p> 
+        <p>Teléfono: +54 61 234 8716</p> 
+        <p>E-mail: contacto@Restorando.com</p> 
+      </strong>
+    </div>
+  </footer> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="form">
+    <form action="#" method="get" enctype="multipart/form-data">
+        
+            <h3>¡Reserve su mesa!</h3>
+            
+            <div>
+                <label for="name"></label>
+                
+                <input type="text" name="name" id="name" placeholder="Ingrese su Nombre" required  class="form_input">
+            </div>
+           
+            <div>
+                <label for="apellido"></label>
+                
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required class="form_input">
+            </div>
+ 
+            <div>
+                <label for="mail"></label>
+                
+                <input type="email" name="mail" id="mail" placeholder="Ingrese su E-mail" required class="form_input">
+            </div>
+           
+            <div>
+                <label for="number"></label>
+                
+                <input type="number" name="number" id="number" placeholder="Ingrese su Numero" class="form_input">
+            </div>
+
+            <div>
+                <label for="personas">¿Cuántas personas?</label>
+                
+                <select name="personas" id="personas" class="form_input">
+                    <option value="uno">1</option>
+                    <option value="dos">2</option>
+                    <option value="tres">3</option>
+                    <option value="cuatro">4</option>
+                    <option value="cinco">5</option>
+                    <option value="seis">6</option>
+                    <option value="siete">7</option>
+                    <option value="ocho">8</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="date">Fecha de su reserva:</label>
+                
+                <input type="date" name="date" id="date" min="2022-12-01" class="form_input">
+            </div>
+            
+
+            <strong><span class="area"><p>Áreas de interés para recibir información via e-mail</p> </span></strong>
+            
+            <input type="checkbox" name="promos" id="promos" class="check">
+                <label for="promos">Promociones</label>
+            <br>
+                <input type="checkbox" name="nov" id="nov" class="check">
+                <label for="nov">Novedades</label>
+            <br>
+                <input type="checkbox" name="cursos" id="cursos" class="check">
+                <label for="cursos">Cursos/Recetas</label>
+
+
+            <div>
+                <input type="reset" value="Reiniciar Petición" class="form_button">
+                <input type="submit" value="Enviar Petición" class="form_button">
+            </div>
+            
+            <textarea name="message" id="" cols="30" rows="3" readonly class="form_input" placeholder="Luego de enviar su petición aguarde que lo contactemos. Gracias y saludos!"></textarea>
+   
+    </form>
+</section>
+
+
+    <section class="horarios">
+        
+        <div>
+
+            <h2>Horarios</h2>
+
+             <div>
+                <p>Domingo</p>
+                <ul>
+                    <li>12:00 – 15:30</li>
+                </ul>
+             </div> 
+             <div>
+                <p>Lunes</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Martes</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Miercoles</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Jueves</p>
+                <ul>
+                    <li>12:00 – 15:30</li> 
+                </ul>
+             </div>
+             <div>
+                <p>Viernes</p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>
+             <div>
+                <p>Sabado </p>
+                <ul>
+                    <li>19:00 – 24:00</li>
+                </ul>
+             </div>                               
+        </div>
+
+    
+    </section> -->
+
+    
+</body>
+</html>
