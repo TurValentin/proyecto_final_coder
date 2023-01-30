@@ -31,6 +31,71 @@
         margin-left: auto;
 
     }
+}
+
+.bebidas{
+
+    & .container{
+        padding: 50px;
+        margin: auto;
+
+    }
+
+    & .bebidas__title{
+        text-decoration: underline;
+        text-align: center;
+        padding: 25px;
 
 
+    }
+
+    & h2{
+        color: white;
+        text-decoration: underline;
+        padding: 7px;
+        margin: auto; 
+        font-size: 18px;  
+    }
+
+    & h4{
+        margin-left: auto;
+        padding: 3px;
+    }
+
+    & p{
+        margin-left: auto;
+
+    }
+}
+
+
+
+
+
+.postres{
+
+    & .container{
+        padding: 50px;
+        margin: auto;
+
+    }
+
+    & .postre__title{
+        text-decoration: underline;
+        text-align: center;
+        padding: 25px;
+
+
+    }
+
+
+    & h4{
+        margin-left: auto;
+        padding: 3px;
+    }
+
+    & p{
+        margin-left: auto;
+
+    }
 }
