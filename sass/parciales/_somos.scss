@@ -65,7 +65,7 @@
 
 
 .imagen1{
-    background-image: url(../img/ñoquis.jpg);
+    background-image: url(../../img/ñoquis.jpg);
     background-size: cover;
     background-position: center center;
     height: 300px;
@@ -75,7 +75,7 @@
 }
 
 .imagen2{
-    background-image: url(../img/carne.jpg);
+    background-image: url(../../img/carne.jpg);
     background-size: cover;
     background-position: center center;
     height: 300px;
@@ -85,7 +85,7 @@
 }
 
 .imagen3{
-    background-image: url(../img/brownie.jpg);
+    background-image: url(../../img/brownie.jpg);
     background-size: cover;
     background-position: center center;
     height: 300px;
@@ -93,6 +93,7 @@
     margin: $margin-imagen;
     border-radius: 5px;
 }
+
 
 .parrafo .container{
     max-width: 750px;
