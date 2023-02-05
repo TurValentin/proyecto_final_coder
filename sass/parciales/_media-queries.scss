@@ -1,5 +1,45 @@
 // MEDIA-QUERIES
 
+
+@media screen and (max-width: 1440px) {
+    .bienvenidos{
+        height: 75vh;
+    }
+
+    .año{
+        height: 75vh;
+    }
+
+    .año__texto h2{
+        font-size: 30px;
+    }
+
+    .container_contacto{
+        margin: 100px auto;
+        height: 100vh;        
+     }
+
+     .form{
+        height: 95vh;
+        padding: 20px;
+        margin: 130px 0;
+     }
+
+     .form .form_input{
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 14px;  
+    }
+
+    .horarios{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 1024px) {
     
     .año{
@@ -26,6 +66,14 @@
         margin-bottom: 20px;
     }
 
+    .form{
+        padding: 20px;
+        width: 450px;
+        margin: 100px auto;
+        height: 100vh;  
+    }
+
+
 }
 
 
@@ -45,7 +93,7 @@
     }
 
     .bienvenidos{
-        height: 70vh;
+        height: 75vh;
     }
 
     .bienvenidos__img{
@@ -53,11 +101,16 @@
         margin-top: 30px;
         padding: 10px; 
         width: 350px;
-        height: 500px;
+        height: 400px;
+    }
+
+    .bienvenidos__texto p{
+        margin-bottom: 25px;
+        font-size: 16px;
     }
 
     .año{
-        height: 70vh;
+        height: 75vh;
     }
     
    
@@ -65,7 +118,7 @@
        margin: auto;
        padding: 10px;
        width: 350px;
-       height: 500px;
+       height: 400px;
     }
     
     
@@ -78,11 +131,46 @@
     }
 
     .año__texto p{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
-    .horarios{
-        padding-left: 20px;
+    .info_contacto h3{
+        font-size: 25px;
+    }
+
+    .info_contacto p{
+        font-size: 15px;
+    }
+
+    .container_contacto{
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    .display__form-horarios .form{
+        height: 90vh;
+    }
+
+    .form{
+        padding: 20px;
+        width: 370px;
+        margin: 100px auto;
+        height: 80vh;  
+    }
+    
+    .form h3{
+        font-size: 21px;
+        margin-bottom: 18px;  
+    }
+    
+    .form .form_input{
+        padding: 7px;
+        margin-bottom: 15px;
+        font-size: 13px;  
+    }
+    
+    .horarios h2{
+        font-size: 28px;
     }
 }
 
@@ -179,7 +267,7 @@
     }
     
     .año__texto h2{
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
     
 
@@ -224,6 +312,7 @@
 
     .footer__container{
         height: 195px;
+        margin-top: 200px;
     }
 
     .hero_contacto{
@@ -294,8 +383,9 @@
     }
 
     .container_contacto{
-        margin: 50px auto;
+        margin: 180px auto;
         height: 100vh;
+
           
      }
      
@@ -304,9 +394,8 @@
          padding: 30px;
          width: 300px;
          margin: auto;
-         height: 480px;
-         margin-top: 350px;
-         
+         height: 500px;
+         margin-top: 350px; 
          
      }
      
