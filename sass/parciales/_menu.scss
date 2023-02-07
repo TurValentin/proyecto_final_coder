@@ -42,6 +42,121 @@
 }
 
 
+
+
+.imagenes .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imagen1{
+    background-image: url(../img/ñoquis.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen2{
+    background-image: url(../img/carne.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen3{
+    background-image: url(../img/brownie.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen4{
+    background-image: url(../img/ensalada.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen5{
+    background-image: url(../img/pizza.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen6{
+    background-image: url(../img/ravioles.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen7{
+    background-image: url(../img/mila.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen8{
+    background-image: url(../img/tiramisu.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+.imagen9{
+    background-image: url(../img/papas.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    width: 300px;
+    margin: $margin-imagen;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu__button{
     
     display: flex;
