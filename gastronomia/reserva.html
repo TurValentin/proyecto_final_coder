@@ -7,29 +7,50 @@
     <meta name="description" content="Somos restorando, reserve su mesa para su horario y dia de preferencia">
     <meta name="keywords" content="promociones, recetas, menú, reservas, restorando, mesa, fecha">
     <title>Reserva, Restorando</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- BOOTSTRAP -->
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Inter:wght@300&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/compilado.css">
     
 </head>
 <body>
-    <header class="header">
-            <div>                
-                <label for="" class="header__logo">
-                    <a href="../index.html"><img src="../img/restorando.jpg" alt="Logo"></a>
-                </label>
-            </div>
-            <nav class="header__nav">
-                <ul>
-                  <li><a href="../index.html" class="nav__anchor">Inicio</a></li>
-                  <li><a href="quienes-somos.html" class="nav__anchor">Quienes Somos</a></li>
-                  <li><a href="menu.html" class="nav__anchor">Menú</a></li>
-                  <li><a href="contacto.html" class="nav__anchor">Contacto</a></li>
-                  <li><a href="" class="nav__anchor">Reservá</a></li>
-                  
-                </ul>   
-            </nav>     
-       
-    </header>
+
+
+    <div class="container-fluid contenedor">
+    <nav class="navbar navbar-expand-lg navbar-dark contenedor__nav" >
+      <label for="" class="contenedor__logo">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/restorando.jpg" alt="Logo">
+        </a>
+      </label>
+      <button class="navbar-toggler contenedor__hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse contenedor__anchor" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="quienes-somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="">Reservá</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+
 
 
 <div class="display__form-horarios">
@@ -38,7 +59,7 @@
     
     <form action="#" method="get" enctype="multipart/form-data">
         
-            <h3>¡Reserve su mesa!</h3>
+            <h2>¡Reserve su mesa!</h2>
             
             <div>
                 <label for="name"></label>
@@ -172,7 +193,7 @@
 
 
 <footer class="footer">
-    <div class="footer__container">
+    <div class="footer__conteiner">
       <strong>
         <p>Copyright © 2022, Restorando. Todos los derechos reservados.  Designed by ValenTur. </p>
         
@@ -184,5 +205,7 @@
   </footer> 
 
     
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -7,6 +7,9 @@
     <meta name="description" content="Somos restorando, contáctanos y consúltenos">
     <meta name="keywords" content="restorando, menú, carta, consúltenos, horarios, contáctenos, reservá">
     <title>Contacto, Restorando</title>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- BOOTSTRAP -->
      <!-- AOS -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -16,26 +19,42 @@
     
 </head>
 <body>
-    
-    <header class="header">
-        <div>
-                <label for="" class="header__logo">
-                  <a href="../index.html"><img src="../img/restorando.jpg" alt="Logo"></a>
-                </label>
-        </div>
 
-              <nav class="header__nav">             
-                <ul>
-                  <li><a href="../index.html" class="nav__anchor">Inicio</a></li>
-                  <li><a href="quienes-somos.html" class="nav__anchor">Quienes Somos</a></li>
-                  <li><a href="menu.html" class="nav__anchor">Menú</a></li>
-                  <li><a href="" class="nav__anchor">Contacto</a></li>
-                  <li><a href="reserva.html" class="nav__anchor">Reservá</a></li>
-                  
-                </ul>   
-               </nav>     
- 
-    </header>
+
+
+  <div class="container-fluid contenedor">
+    <nav class="navbar navbar-expand-lg navbar-dark contenedor__nav" id="principio">
+      <label for="" class="contenedor__logo">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/restorando.jpg" alt="Logo">
+        </a>
+      </label>
+      <button class="navbar-toggler contenedor__hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse contenedor__anchor" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="quienes-somos.html">Quienes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="menu.html">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav__anchor" href="reserva.html">Reservá</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
 
   <main class="main_contacto">
 
@@ -47,7 +66,7 @@
 
         <section class="info_contacto">
 
-          <div class="container">
+          <div class="conteiner">
 
             <div class="contacto">
 
@@ -86,7 +105,7 @@
 
             <div class="horarios_contacto">
                 <div>
-                  <h3>Horarios</h3>
+                  <h2>Horarios</h2>
 
                   <div>
                       <p>Domingo</p>
@@ -140,7 +159,7 @@
 
 
 
-    <div class="container_contacto">
+    <div class="conteiner_contacto">
       
      <section class="form_contacto">
 
@@ -151,22 +170,17 @@
         <div>
           <label for="name"></label>
           
-          <input type="text" name="name" id="name" placeholder="Ingrese su Nombre" required  class="form_input">
+          <input type="text" name="name" id="name" placeholder="Ingrese su Nombre" required  class="form__input">
         </div>
 
         <div>
           <label for="mail"></label>
           
-          <input type="email" name="mail" id="mail" placeholder="Ingrese su E-mail" required class="form_input">
+          <input type="email" name="mail" id="mail" placeholder="Ingrese su E-mail" required class="form__input">
         </div>
 
-        <div>
-          <label for="number"></label>
-          
-          <input type="number" name="number" id="number" placeholder="Ingrese su Numero" class="form_input">
-        </div>
       
-        <textarea name="message" id="" cols="30" rows="3" class="form_input" placeholder="Mensaje"></textarea>
+        <textarea name="message" id="" cols="30" rows="3" class="form__area" placeholder="Mensaje"></textarea>
 
         <div>
           <input type="submit" value="Enviar consulta" class="form_button">
@@ -179,13 +193,19 @@
 
     </div>
 
+
+
+    <a href="#principio">
+      <button id="botonArriba">Ʌ</button>
+    </a>
+
   </main>
 
     
 
     
   <footer class="footer">
-      <div class="footer__container">
+      <div class="footer__conteiner">
         <strong>
           <p>Copyright © 2022, Restorando. Todos los derechos reservados.  Designed by ValenTur. </p>
           
@@ -198,7 +218,7 @@
 
 
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
   <script>
     AOS.init();

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin: auto;
+    margin: auto;   
 }
 
 .form{
@@ -15,13 +15,13 @@
     border-radius: 7px;
     color: white;
     box-shadow: 7px 13px 17px #000;
-    height: 75vh;  
+    height: 85vh;  
 
 
 
-    & h3{
-        font-size: 22px;
-        margin-bottom: 20px;  
+    & h2{
+        font-size: 23px;
+        margin-bottom: 10px;  
     }
 
     & .form_input{
@@ -29,7 +29,7 @@
         background: $color-principal;
         padding: 10px;
         border-radius: 4px;
-        margin-bottom: 10px;
+        margin-bottom: 7px;
         border: 1.5px solid black;
         font-size: 12px;  
     }
@@ -37,11 +37,12 @@
     & .form_button{
         width: 45%;
         background: $color-principal;
-        padding: 10px;
+        padding: 7px;
         border-radius: 4px;
         margin-bottom: 16px;
         border: 1.5px solid $color-principal;
-        box-shadow: 1px 1px 3px $color-principal;  
+        box-shadow: 1px 1px 3px $color-principal; 
+        
     }
 
     & .form_button:hover{
@@ -50,7 +51,6 @@
     }
 
     & .area p{
-        height: 20px;
         font-size: 13px;
         margin-bottom: 10px;
         color: white; 
@@ -69,32 +69,44 @@
 }
 
 .horarios{
-    margin-right: 150px;
-    padding-top: 130px;
+
+    padding: 50px;
+    margin-top: 100px;
+    
 
     & h2{
         font-size: 30px;
         color: black;
         text-decoration: underline;
-        margin-bottom: 20px;  
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+        
+        
     }
     
 
     & p{
         font-size: 17px;
         text-transform: inherit;
-        margin-bottom: px;
+        margin-bottom: 5px;
         color: #000;
         font-weight: bold;
         text-align: center;
+        
+
     }
 
     & ul li{
         text-decoration: none;
         text-align: center;
+        margin-right: 25px;
         margin-bottom: 3.5px;
         list-style: none;
-        padding: 8px;
+        
+       
+       
+        
     }
     
 }

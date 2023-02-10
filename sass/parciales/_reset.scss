@@ -13,6 +13,16 @@ body p{
     font-size: 16px;
 }
 
+#botonArriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    background-color: $color-principal;
+    border-radius: 45px;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
 
 
 

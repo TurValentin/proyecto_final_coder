@@ -3,37 +3,36 @@
 
 @media screen and (max-width: 1440px) {
     .bienvenidos{
-        height: 75vh;
+        height: 90vh;
     }
 
     .año{
-        height: 75vh;
+        height: 90vh;
     }
 
     .año__texto h2{
         font-size: 30px;
     }
 
-    .container_contacto{
-        margin: 100px auto;
-        height: 100vh;        
+    .conteiner_contacto{
+        margin-top: 250px;
+               
      }
 
      .form{
-        height: 95vh;
+        height: 850px;
         padding: 20px;
         margin: 130px 0;
      }
 
      .form .form_input{
         padding: 10px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         font-size: 14px;  
     }
 
     .horarios{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 130px;
     }
 
 }
@@ -42,13 +41,17 @@
 
 @media screen and (max-width: 1024px) {
     
+    .bienvenidos{
+        margin-bottom: 50px;
+    }
+
     .año{
-        height: 65vh;
+        margin-bottom: 50px;
     }
     
    
     .año__img{
-       margin-top: 65px;
+       margin-top: 25px;
        padding: 10px;
        
     }
@@ -66,12 +69,25 @@
         margin-bottom: 20px;
     }
 
+
+    .button__index{
+        margin-top: 50px;
+    }
+
+
+    .conteiner_contacto{
+        margin-top: 350px;
+    }
+
+
     .form{
         padding: 20px;
         width: 450px;
         margin: 100px auto;
-        height: 100vh;  
+        height: 850px;
     }
+
+    
 
 
 }
@@ -92,8 +108,13 @@
         height: 85vh; 
     }
 
+    .contenedor__anchor{
+        justify-content: start;
+        margin-left: 30px;
+    }
+
     .bienvenidos{
-        height: 75vh;
+        height: 90vh;
     }
 
     .bienvenidos__img{
@@ -110,7 +131,7 @@
     }
 
     .año{
-        height: 75vh;
+        height: 90vh;
     }
     
    
@@ -134,6 +155,10 @@
         margin-bottom: 20px;
     }
 
+    .button__index{
+        margin-top: 70px;
+    }
+
     .info_contacto h3{
         font-size: 25px;
     }
@@ -142,20 +167,20 @@
         font-size: 15px;
     }
 
-    .container_contacto{
-        margin-top: 90px;
-        margin-bottom: 50px;
+    .conteiner_contacto{
+        margin-top: 350px;
+        margin-bottom: 150px;
     }
 
     .display__form-horarios .form{
-        height: 90vh;
+        height: 800px;
     }
 
     .form{
         padding: 20px;
         width: 370px;
         margin: 100px auto;
-        height: 80vh;  
+          
     }
     
     .form h3{
@@ -169,8 +194,8 @@
         font-size: 13px;  
     }
     
-    .horarios h2{
-        font-size: 28px;
+    .horarios{
+        margin-top: 130px;
     }
 }
 
@@ -199,6 +224,11 @@
         padding-right: 0px;
     }
 
+    .contenedor__anchor{
+        justify-content: start;
+        margin-left: 30px;
+    }
+    
 
     .hero__index{
         height: 55vh; 
@@ -216,10 +246,10 @@
     
 
     .bienvenidos{
-        height: 100vh;
+        margin-bottom: 400px;
     }
 
-    .bienvenidos .container{
+    .bienvenidos .conteiner{
         flex-direction: column;
     }
     
@@ -243,11 +273,10 @@
     }
  
     .año{
-        height: 100vh;
-        margin-top: 25px;
+        margin-bottom: 350px;
     }
     
-    .año .container{
+    .año .conteiner{
         flex-direction: column;   
     }
     
@@ -277,7 +306,7 @@
     }
 
 
-    .imagenes .container{
+    .imagenes .conteiner{
         flex-direction: column;
     }
 
@@ -311,8 +340,8 @@
     
 
 
-    .footer__container{
-        height: 195px;
+    .footer__conteiner{
+        height: 220px;
         margin-top: 200px;
     }
 
@@ -327,7 +356,7 @@
      }
 
 
-    .info_contacto .container{
+    .info_contacto .conteiner{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         height: 100vh;
@@ -379,15 +408,14 @@
     }
     
     .horarios_contacto ul li{
-        margin: 10px;
         list-style: none;  
     }
 
-    .container_contacto{
-        margin: 180px auto;
-        height: 100vh;
+    .conteiner_contacto{
+        margin-top: 450px;
+        margin-bottom: 350px;
 
-          
+        
      }
      
      
@@ -403,8 +431,7 @@
      
      .form_contacto h3{
          font-size: 22px;
-         margin-bottom: 20px;
-         
+         margin-bottom: 20px;  
      }
      
      .form_contacto .form_input{
@@ -419,9 +446,9 @@
      
      
      .form_contacto .form_button{
-         width: 45%;
+         width: 60%;
          background: rgb(215, 215, 215);
-         padding: 10px;
+         padding: 5px;
          border-radius: 4px;
          margin-bottom: 16px;
          border: 1.5px solid rgb(215, 215, 215);
@@ -438,8 +465,11 @@
      .display__form-horarios{
         flex-direction: column;
       }
-      
-      
+    
+     .display__form-horarios .form{
+        height: 750px;
+      }
+
       .form{
           padding: 20px;
           width: 325px;
@@ -461,7 +491,8 @@
       
       .form .form_button{
           padding: 7px;
-          margin-bottom: 14px;  
+          margin-bottom: 14px; 
+          font-size: 15px; 
       }
       
       
@@ -473,10 +504,10 @@
  
       
       .horarios{
-          margin: auto;
           padding-top: 0px;
           margin-top: 25px;
-          height: 75vh;
+          height: 100vh;
+          margin-bottom: 50px;
       }
       
       .horarios h2{
@@ -494,7 +525,7 @@
           padding: 7px;
       }
 
-      .carta-completa .container{
+      .carta-completa .conteiner{
         padding: 7px;
         margin: 0;
       }

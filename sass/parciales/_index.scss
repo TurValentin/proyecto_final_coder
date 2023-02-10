@@ -1,6 +1,6 @@
 // INDEX.HTML
 
-    .container{
+    .conteiner{
         max-width: 1200px;
         margin: 0 auto;
     }
@@ -38,7 +38,7 @@
         height: 55vh;
 
 
-        & .container{
+        & .conteiner{
             display: flex;
             justify-content: space-evenly;
         }
@@ -96,7 +96,7 @@
 
         height: 55vh;
 
-        & .container{
+        & .conteiner{
             display: flex;
             justify-content: space-evenly;
         }
