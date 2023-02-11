@@ -1,13 +1,15 @@
 // MEDIA-QUERIES
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .bienvenidos{
-        height: 90vh;
+        height: 100vh;
+        margin-bottom: 25px;
     }
 
     .año{
-        height: 90vh;
+        height: 100vh;
+        margin-bottom: 25px;
     }
 
     .año__texto h2{
