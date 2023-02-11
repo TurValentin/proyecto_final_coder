@@ -1,7 +1,50 @@
 // MEDIA-QUERIES
 
 
-@media screen and (min-width: 1440px) {
+
+@media screen and (min-width: 2000px) {
+    .bienvenidos{
+        height: 90vh;
+        margin-bottom: 25px;
+    }
+
+    .año{
+        height: 90vh;
+        margin-bottom: 25px;
+    }
+
+    .año__texto h2{
+        font-size: 30px;
+    }
+
+    .conteiner_contacto{
+        margin-top: 250px;
+               
+     }
+
+     .form{
+        height: 850px;
+        padding: 20px;
+        margin: 130px 0;
+     }
+
+     .form .form_input{
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;  
+    }
+
+    .horarios{
+        margin-top: 130px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
     .bienvenidos{
         height: 100vh;
         margin-bottom: 25px;
